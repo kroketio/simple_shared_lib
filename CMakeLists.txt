@@ -5,6 +5,7 @@ project(cool_lib VERSION "0.0.1" DESCRIPTION "cool_lib")
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type" FORCE)
 include(CMakePackageConfigHelpers)
+include(GNUInstallDirs)
 
 # gather our files for compilation
 file(GLOB project_files
