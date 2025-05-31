@@ -24,14 +24,14 @@ sudo make -Cbuild install
 Output of the install command:
 
 ```
--- Installing: /usr/local/include/cool_lib/cool_lib.h
--- Installing: /usr/local/lib/libcool_lib.so.0.0.1
--- Installing: /usr/local/lib/libcool_lib.so.0
--- Installing: /usr/local/lib/libcool_lib.so
--- Installing: /cmake/cool_lib/cool_libTargets.cmake
--- Installing: /cmake/cool_lib/cool_libTargets-noconfig.cmake
--- Installing: /cmake/cool_lib/cool_libConfig.cmake
--- Installing: /cmake/cool_lib/cool_libConfigVersion.cmake
+-- Up-to-date: /usr/local/include/cool_lib/cool_lib.h
+-- Up-to-date: /usr/local/lib/libcool_lib.so.0.0.1
+-- Up-to-date: /usr/local/lib/libcool_lib.so.0
+-- Up-to-date: /usr/local/lib/libcool_lib.so
+-- Installing: /usr/local/lib/cmake/cool_lib/cool_libTargets.cmake
+-- Installing: /usr/local/lib/cmake/cool_lib/cool_libTargets-debug.cmake
+-- Installing: /usr/local/lib/cmake/cool_lib/cool_libConfig.cmake
+-- Installing: /usr/local/lib/cmake/cool_lib/cool_libConfigVersion.cmake
 ```
 
 At this point there is a `.so` (the library) for linking, and a header file `cool_lib/cool_lib.h` for inclusion.
